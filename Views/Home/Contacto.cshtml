@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["title"] = "Contacto";
+}
+
+<partial name="_Pestanas" model="MenuPortfolio.Contacto" />
+
+<div class="p-4">
+    <div>
+        <span class="fuentePrincipal colorTercero" style="font-size: 30pt">CONTACTO</span>
+    </div>
+
+<form asp-controller="Home" asp-action="Contacto">
+    <div class="mb-3">
+        <label for="nombre" class="form-label colorQuinto fuenteSecundaria">Nombre</label>
+        <input type="text" class="form-control fuenteSecundaria fondoQuinto boxInputActive" id="nombre" name="nombre" placeholder="Nombre del usuario" />
+    </div>
+    <div class="mb-3">
+        <label for="email" class="form-label colorQuinto fuenteSecundaria">Email</label>
+        <input type="email" class="form-control fuenteSecundaria fondoQuinto boxInputActive" id="email" name="email" placeholder="Email del usuario" />
+    </div>
+    <div class="mb-3">
+        <label for="mensaje" class="form-label colorQuinto fuenteSecundaria">Mensaje</label>
+        <textarea class="form-control fuenteSecundaria fondoQuinto boxInputActive" id="mensaje" name="mensaje" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary fuentePrincipal fondoTercero fs-15" style="color: #fff">Enviar</button>
+</form>

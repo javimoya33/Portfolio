@@ -1,0 +1,33 @@
+﻿@Model MenuPortfolio
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light fondoPrimero box-shadow mb-3" 
+        style="border-bottom: 1px solid #362852">
+        <div class="container-fluid">
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="@(Model == MenuPortfolio.SobreMi ? "txtPestanaActive" : null) text-left colorQuinto fuenteSecundaria ml-8 fs-5 mgt-3 nav-link txtPestana"
+                           asp-area="" asp-controller="Home" asp-action="SobreMi">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="@(Model == MenuPortfolio.Portfolio ? "txtPestanaActive" : null) text-left colorQuinto fuenteSecundaria ml-8 fs-5 mgt-3 nav-link txtPestana"
+                           asp-area="" asp-controller="Home" asp-action="Proyectos">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="@(Model == MenuPortfolio.Formacion ? "txtPestanaActive" : null) text-left colorQuinto fuenteSecundaria ml-8 fs-5 mgt-3 nav-link txtPestana"
+                           asp-area="" asp-controller="Home" asp-action="Formacion">Formación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="@(Model == MenuPortfolio.Habilidades ? "txtPestanaActive" : null) text-left colorQuinto fuenteSecundaria ml-8 fs-5 mgt-3 nav-link txtPestana"
+                           asp-area="" asp-controller="Home" asp-action="Habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="@(Model == MenuPortfolio.Contacto ? "txtPestanaActive" : null) text-left colorQuinto fuenteSecundaria ml-8 fs-5 mgt-3 nav-link txtPestana"
+                           asp-area="" asp-controller="Home" asp-action="Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

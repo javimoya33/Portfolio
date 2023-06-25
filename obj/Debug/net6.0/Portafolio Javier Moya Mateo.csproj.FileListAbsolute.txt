@@ -1,0 +1,34 @@
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\appsettings.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\Portafolio Javier Moya Mateo.staticwebassets.runtime.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\Portafolio Javier Moya Mateo.exe
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\Portafolio Javier Moya Mateo.deps.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\Portafolio Javier Moya Mateo.runtimeconfig.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\Portafolio Javier Moya Mateo.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\Portafolio Javier Moya Mateo.pdb
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\Dapper.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.csproj.AssemblyReference.cache
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.AssemblyInfoInputs.cache
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.AssemblyInfo.cs
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.csproj.CoreCompileInputs.cache
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.RazorAssemblyInfo.cache
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.RazorAssemblyInfo.cs
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\scopedcss\bundle\Portafolio Javier Moya Mateo.styles.css
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\scopedcss\projectbundle\Portafolio Javier Moya Mateo.bundle.scp.css
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.csproj.CopyComplete
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\refint\Portafolio Javier Moya Mateo.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.pdb
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\Portafolio Javier Moya Mateo.genruntimeconfig.cache
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Debug\net6.0\ref\Portafolio Javier Moya Mateo.dll

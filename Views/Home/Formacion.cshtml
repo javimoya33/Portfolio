@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Formacion>
+
+@{
+    ViewData["title"] = "Formación";
+}
+
+<partial name="_Pestanas" model="MenuPortfolio.Formacion" />
+
+<div class="p-4">
+    <div>
+        <span class="fuentePrincipal colorTercero" style="font-size: 30pt">FORMACIÓN</span>
+    </div>
+
+    @if (Model is not null)
+    {
+        <div class="mt-5 efecto-borde" style="border-top: none; border-bottom: none; border-right: none">
+            @foreach (var formacion in Model)
+            {
+                <div class="mb-5">
+                    <div class="d-flex" style="justify-content: space-between;">
+                        <div class="fuenteTerciaria colorTercero fs-25 fw-bold" style="margin-left: -2px;">
+                            @if (formacion.Certificado)
+                            {
+                                <span style="font-weight: 100; font-family: auto">―</span> 
+                                <img src="~/imagenes/certificado.png" class="mx-1" style="width: 50px" /> 
+                                @formacion.Titulo
+                            }
+                            else
+                            {
+                                <span style="font-weight: 100; font-family: auto">―</span>
+                                <img src="~/imagenes/diploma.png" class="mx-1" style="width: 50px" />
+                                @formacion.Titulo
+                            }
+                        </div>
+                        <div class="fuenteTerciaria colorSexto fs-5 d-flex" style="align-items: center">@formacion.Fecha</div>
+                    </div>
+                    <div class="d-flex mb-3 px-4-5">
+                        <div class="fuenteSecundaria colorQuinto fs-5">@formacion.Subtitulo</div>
+                    </div>
+                    <div class="d-flex px-4-5">
+                        <div class="fuenteTerciaria colorQuinto fs-5">Curso de @formacion.HorasCurso horas</div>
+                    </div>
+                    <div class="mt-4 descarga_cv mx-4-5 btn-portfolio">
+                        <a href="@formacion.Enlace" style="text-decoration: none">
+                            <span class="fuentePrincipal colorSeptimo fs-5">Certificado</span>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>

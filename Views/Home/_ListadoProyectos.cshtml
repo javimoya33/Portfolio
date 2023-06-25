@@ -1,0 +1,54 @@
+﻿@model ProyectoHerramientaViewModel
+
+@if (Model is not null)
+{
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            @foreach (var proyecto in Model.proyectos)
+            {
+                <div class="col mgt-50">
+                    <div class="card-h-100">
+                        <img src="~/imagenes/proyectos/@proyecto.ImagenURL" class="card-img-top" alt="Imagen Proyecto" />
+                        <div class="card-body">
+                            <h5>
+                                <a href="@proyecto.Link" target="_blank" class="t-decoration">
+                                    <span class="fuenteTerciaria colorTercero fs-25 fw-bold">
+                                        @proyecto.Nombre
+                                    </span>
+                                </a>
+                            </h5>
+                            <p class="fuenteSecundaria colorQuinto fs-6">@proyecto.Descripcion</p>
+
+                            @foreach (var herramienta in Model.herramientas)
+                            {
+                                @if (@herramienta.IdPro == @proyecto.Id)
+                                {
+                                    <div class="p-1 d-inline-block rounded mb-1" style="background-color: #@herramienta.ColorFondo;">
+                                        <span class="fuentePrincipal fs-15" style="color: #@herramienta.ColorLetra">
+                                            @herramienta.Nombre
+                                        </span>
+                                    </div>
+                                }
+                            }
+
+                            <div>
+                                <div onmouseover="efectoBotonGithub(this)" onmouseout="restaurarBotonGithub(this)" class="mt-3 d-inline-block btn-portfolio btn-enlace">
+                                    <a href="@proyecto.Link" target="_blank" class="t-decoration">
+                                        <div class="dp-none fuenteTerciaria fs-20 div-github">GitHub</div>
+                                        <img src="~/imagenes/github.png" title="enlace" class="w-60" />
+                                    </a>
+                                </div>
+                                <div onmouseover="efectoBotonGithub(this)" onmouseout="restaurarBotonGithub(this)" class="mt-3 d-inline-block btn-portfolio btn-enlace">
+                                    <a href="@proyecto.Link" target="_blank" class="t-decoration">
+                                        <div class="dp-none fuenteTerciaria fs-20 div-github">Enlace</div>
+                                        <img src="~/imagenes/enlace.png" title="enlace" class="w-60" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}

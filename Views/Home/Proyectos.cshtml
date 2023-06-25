@@ -1,0 +1,15 @@
+﻿@model ProyectoHerramientaViewModel
+
+@{
+    ViewData["title"] = "Proyectos";
+}
+
+<partial name="_Pestanas" model="MenuPortfolio.Portfolio" />
+
+<div class="p-4">
+    <div>
+        <span class="fuentePrincipal colorTercero" style="font-size: 30pt">MIS PROYECTOS</span>
+    </div>
+</div>
+
+<partial name="_ListadoProyectos" model="Model" />
