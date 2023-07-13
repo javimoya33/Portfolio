@@ -45,9 +45,6 @@ namespace Portafolio4.Controllers
 
         public IActionResult Index()
         {
-            var apellido = configuration.GetValue<string>("Apellido");
-            _logger.LogInformation("Este es un mensaje de log " + apellido);
-
             //var proyectos = repositorioProyectos.ObtenerProyectos().Take(3).ToList();
             var guidViewModel = new EjemploGuidViewModel()
             {

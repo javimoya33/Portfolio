@@ -19,7 +19,7 @@ namespace Portafolio4.Servicios
                     Subtitulo = "Técnico Superior de Formación Profesional",
                     Fecha = "Septiembre 2011 - Junio 2013",
                     HorasCurso = 2000,
-                    Enlace = "www.marca.com",
+                    Enlace = "../imagenes/titulos/Titulo_DAW.jpg",
                     Certificado = false
                 },
                 new Formacion
@@ -28,7 +28,7 @@ namespace Portafolio4.Servicios
                     Subtitulo = "Técnico Superior de Formación Profesional",
                     Fecha = "Septiembre 2013 - Junio 2017",
                     HorasCurso = 2000,
-                    Enlace = "www.elmundo.es",
+                    Enlace = "../imagenes/titulos/Titulo_DAM.jpg",
                     Certificado = false
                 },
                 new Formacion
@@ -37,7 +37,7 @@ namespace Portafolio4.Servicios
                     Subtitulo = "Curso Online de Udemy",
                     Fecha = "Junio 2019",
                     HorasCurso = 31,
-                    Enlace = "www.elmundo.es",
+                    Enlace = "../imagenes/titulos/Titulo_Ionic.jpg",
                     Certificado = true
                 },
                 new Formacion
@@ -46,8 +46,8 @@ namespace Portafolio4.Servicios
                     Subtitulo = "Curso Online de Udemy",
                     Fecha = "Enero 2023",
                     HorasCurso = 26,
-                    Enlace = "www.elmundo.es",
-                    Certificado = true
+                    Certificado = true,
+                    Enlace = "../imagenes/titulos/Titulo_ASP_MVC.jpg",
                 },
                 new Formacion
                 {
@@ -55,7 +55,7 @@ namespace Portafolio4.Servicios
                     Subtitulo = "Curso Online de Udemy",
                     Fecha = "Marzo 2023",
                     HorasCurso = 22,
-                    Enlace = "www.elmundo.es",
+                    Enlace = "../imagenes/titulos/Titulo_ASP_API.jpg",
                     Certificado = true
                 },
                 new Formacion
@@ -64,7 +64,7 @@ namespace Portafolio4.Servicios
                     Subtitulo = "Curso Online de Udemy",
                     Fecha = "En proceso",
                     HorasCurso = 35,
-                    Enlace = "www.elmundo.es",
+                    Enlace = "",
                     Certificado = true
                 }
             };

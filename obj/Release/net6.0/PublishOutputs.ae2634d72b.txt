@@ -1,0 +1,15 @@
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\Portafolio Javier Moya Mateo.exe
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\appsettings.Production.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\Portafolio Javier Moya Mateo.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\Portafolio Javier Moya Mateo.deps.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\Portafolio Javier Moya Mateo.runtimeconfig.json
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\Portafolio Javier Moya Mateo.pdb
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\Dapper.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\System.Data.SqlClient.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\34656\source\repos\Portafolio4\Portafolio4\obj\Release\net6.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

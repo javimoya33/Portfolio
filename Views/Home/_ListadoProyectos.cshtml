@@ -24,7 +24,7 @@
                                 @if (@herramienta.IdPro == @proyecto.Id)
                                 {
                                     <div class="p-1 d-inline-block rounded mb-1" style="background-color: #@herramienta.ColorFondo;">
-                                        <span class="fuentePrincipal fs-15" style="color: #@herramienta.ColorLetra">
+                                        <span class="fuentePrincipal fs-12" style="color: #@herramienta.ColorLetra">
                                             @herramienta.Nombre
                                         </span>
                                     </div>
@@ -32,18 +32,25 @@
                             }
 
                             <div>
-                                <div onmouseover="efectoBotonGithub(this)" onmouseout="restaurarBotonGithub(this)" class="mt-3 d-inline-block btn-portfolio btn-enlace">
-                                    <a href="@proyecto.Link" target="_blank" class="t-decoration">
-                                        <div class="dp-none fuenteTerciaria fs-20 div-github">GitHub</div>
-                                        <img src="~/imagenes/github.png" title="enlace" class="w-60" />
-                                    </a>
-                                </div>
-                                <div onmouseover="efectoBotonGithub(this)" onmouseout="restaurarBotonGithub(this)" class="mt-3 d-inline-block btn-portfolio btn-enlace">
-                                    <a href="@proyecto.Link" target="_blank" class="t-decoration">
-                                        <div class="dp-none fuenteTerciaria fs-20 div-github">Enlace</div>
-                                        <img src="~/imagenes/enlace.png" title="enlace" class="w-60" />
-                                    </a>
-                                </div>
+                                @if (proyecto.GitHub != null)
+                                {
+                                    <div onmouseover="efectoBotonGithub(this)" onmouseout="restaurarBotonGithub(this)" class="mt-3 d-inline-block btn-portfolio btn-enlace">
+                                        <a href="@proyecto.GitHub" target="_blank" class="t-decoration">
+                                            <div class="dp-none fuenteTerciaria fs-20 div-github">GitHub</div>
+                                            <img src="~/imagenes/github.png" title="Github" class="w-48" />
+                                        </a>
+                                    </div>
+                                }
+
+                                @if (proyecto.Link != null)
+                                {
+                                    <div onmouseover="efectoBotonGithub(this)" onmouseout="restaurarBotonGithub(this)" class="mt-3 d-inline-block btn-portfolio btn-enlace">
+                                        <a href="@proyecto.Link" target="_blank" class="t-decoration">
+                                            <div class="dp-none fuenteTerciaria fs-20 div-github">Enlace</div>
+                                            <img src="~/imagenes/enlace.png" title="enlace" class="w-48" />
+                                        </a>
+                                    </div>
+                                }
                             </div>
                         </div>
                     </div>

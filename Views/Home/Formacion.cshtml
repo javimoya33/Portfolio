@@ -17,18 +17,18 @@
             @foreach (var formacion in Model)
             {
                 <div class="mb-5">
-                    <div class="d-flex" style="justify-content: space-between;">
+                    <div class="d-flex-certificado" style="justify-content: space-between;">
                         <div class="fuenteTerciaria colorTercero fs-25 fw-bold" style="margin-left: -2px;">
                             @if (formacion.Certificado)
                             {
                                 <span style="font-weight: 100; font-family: auto">―</span> 
-                                <img src="~/imagenes/certificado.png" class="mx-1" style="width: 50px" /> 
+                                <img src="~/imagenes/certificado.png" class="mx-1 img-certificado" /> 
                                 @formacion.Titulo
                             }
                             else
                             {
                                 <span style="font-weight: 100; font-family: auto">―</span>
-                                <img src="~/imagenes/diploma.png" class="mx-1" style="width: 50px" />
+                                <img src="~/imagenes/diploma.png" class="mx-1 img-certificado" />
                                 @formacion.Titulo
                             }
                         </div>
@@ -41,7 +41,7 @@
                         <div class="fuenteTerciaria colorQuinto fs-5">Curso de @formacion.HorasCurso horas</div>
                     </div>
                     <div class="mt-4 descarga_cv mx-4-5 btn-portfolio">
-                        <a href="@formacion.Enlace" style="text-decoration: none">
+                        <a href="@formacion.Enlace" target="_blank" style="text-decoration: none">
                             <span class="fuentePrincipal colorSeptimo fs-5">Certificado</span>
                         </a>
                     </div>

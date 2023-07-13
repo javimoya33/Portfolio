@@ -23,7 +23,8 @@ namespace Portafolio4.Servicios
 
             return await connection.QueryAsync<Proyecto>(
                 @"SELECT pro.Id, pro.Nombre, pro.Descripcion, pro.ImagenURL, pro.Link, pro.GitHub
-                    FROM Proyectos AS pro");
+                    FROM Proyectos AS pro
+                  ORDER BY pro.FechaRealizacion DESC");
         }
     }
 }
