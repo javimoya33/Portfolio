@@ -22,7 +22,8 @@ body {
 }
 
 #foto {
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     border-radius: 50%;
     margin: 1rem 0;
 }
@@ -72,7 +73,7 @@ body {
 }
 
 .fuenteTerciaria {
-    font-family: 'Molde', cursive;
+    font-family: 'Cuprum', sans-serif;
 }
 
 .fs-9 {
@@ -267,6 +268,10 @@ body {
     text-align: center;
 }
 
+.grid-container .col p img {
+    margin-top: -4px;
+}
+
 .grid-container .col p:first-child {
     margin-left: 0px !important;
 }
@@ -293,7 +298,7 @@ body {
     }
 
     .fs-25 {
-        font-size: 20pt;
+        font-size: 18pt;
     }
 
     .fs-15 {
@@ -387,6 +392,7 @@ body {
 }
 
 .p-habilidades {
+    position: relative;
     color: #ccc;
     border: 0;
     transition: 0.6s;
@@ -449,6 +455,7 @@ body {
     gap: 10px;
     animation: shake 0.5s;
     animation-iteration-count: 5;
+    z-index: 9999;
 }
 
 @keyframes shake {
@@ -521,17 +528,21 @@ body {
     display: flex !important;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1080px) {
     .div-barra-lateral {
-        width: 100%;
+        width: 40%;
     }
 
     .div-contenido {
-        width: 100%;
+        width: 60%;
     }
 
-    .img-contacto-whatsapp {
-        width: 44px;
+    .efecto-borde {
+        border: none;
+    }
+
+    .d-flex-certificado {
+        display: block !important;
     }
 
     .div-habilidades {
@@ -539,6 +550,7 @@ body {
     }
 
     .p-habilidades {
+        position: inherit;
         display: inline-grid;
         justify-content: center;
     }
@@ -568,11 +580,49 @@ body {
         margin-right: 0.25rem !important;
     }
 
+    .p-fila-uno-hab {
+        height: 90px;
+    }
+
+    .p-fila-dos-hab {
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .div-barra-lateral {
+        width: 100%;
+    }
+
+    .div-contenido {
+        width: 100%;
+    }
+
+    .img-contacto-whatsapp {
+        width: 44px;
+    }
+
     .img-certificado {
         width: 40px;
     }
 
-    .d-flex-certificado {
-        display: block !important;
+    .p-fila-uno-hab {
+        height: 60px;
+    }
+
+    .p-fila-dos-hab {
+        height: 54px;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-expand-sm .navbar-nav {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1080px) {
+    .navbar-expand-sm .navbar-nav {
+        flex-direction: row;
     }
 }
